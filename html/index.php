@@ -10,7 +10,7 @@
 
 <body>
     <nav>
-        <img src="images/ChatGPT Image 7 mei 2025, 09_49_19.png" alt="">
+        
     </nav>
     <main>
 
