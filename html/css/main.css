@@ -1,8 +1,17 @@
+/* algemeen */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+
+}
+h2{
+    font-size: 50px;
+}
+/* */
 
 /* Header */
 .header{
@@ -18,9 +27,12 @@
 /* */
 
 /* home body */
+
+/* zoekblok */
 .home_zoekblok{
     margin-top: 150px;
     width: 100%;
+    position: relative;
 }
 .achtergrond_zoekblok{
     display: block;
@@ -32,4 +44,10 @@
     border-bottom-right-radius: 45% 10%;
     overflow: hidden;
 }
+.tekst_zoekbalk{
+    position: absolute;
+    color: #FFFBFB;
+}
+/* */
+
 /* */
