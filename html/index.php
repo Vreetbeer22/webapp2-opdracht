@@ -10,10 +10,16 @@
 
 <body>
     <nav>
-        
+        <div class="header">
+            <div class="header_content">
+                
+            </div>
+        </div>     
     </nav>
     <main>
-
+        <div class="home_zoekblok">
+            <img src="images/achtergrond_zoekblok.jpg" class="achtergrond_zoekblok" alt="plaatje met pad richting zon">
+        </div>
     </main>
     <footer>
 
