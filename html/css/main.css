@@ -5,11 +5,9 @@
     box-sizing: border-box;
 }
 
-h1{
-
-}
 h2{
-    font-size: 50px;
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
 }
 /* */
 
@@ -19,7 +17,7 @@ h2{
     width: 100%;
     background-color: aquamarine;
 }
-.header_content{
+.header-content{
     display: flex;
     justify-self: center;
     width: 70%;
@@ -29,12 +27,12 @@ h2{
 /* home body */
 
 /* zoekblok */
-.home_zoekblok{
+.home-zoekblok{
     margin-top: 150px;
     width: 100%;
     position: relative;
 }
-.achtergrond_zoekblok{
+.achtergrond-zoekblok{
     display: block;
     width: 100%;
     height: 800px;
@@ -44,9 +42,32 @@ h2{
     border-bottom-right-radius: 45% 10%;
     overflow: hidden;
 }
-.tekst_zoekbalk{
+.tekst-zoekblok{
     position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #FFFBFB;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.zoekbalk-zoekblok{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 60%;
+    background-color: #FFFBFB;
+    z-index: 2;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+
+.zoekknop-zoekblok{
+
 }
 /* */
 
