@@ -26,9 +26,11 @@
                 <h2>Waar begint jouw reis?</h2>
             </div>
             <div class="zoekbalk-zoekblok">
-                <div class="zoekknop-zoekblok">
-                    
-                </div>
+                <form method="get">     <!-- zoekbalk -->
+                    <input type="text" name="zoek" class="" placeholder="Bestemming" value="">
+                    <input type="text" name="zoek" class="" placeholder="vertrekdatum" value="">
+                    <button type="submit" class="zoekknop-zoekblok">Zoeken</button>
+                </form>
             </div>
         </div>
     </main>

@@ -67,7 +67,9 @@ h2{
 }
 
 .zoekknop-zoekblok{
-
+    height: 100%;
+    width: 30%;
+    background-color: #284C67;
 }
 /* */
 
