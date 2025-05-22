@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFFBFB;
+}
+
 /* Header */
 .header{
     height: 200px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #FFFBFB;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.379);;
 }
 .header_content{
     display: flex;
@@ -33,3 +40,4 @@
     overflow: hidden;
 }
 /* */
+
