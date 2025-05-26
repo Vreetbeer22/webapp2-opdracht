@@ -6,6 +6,19 @@
 
 body {
     background-color: #FFFBFB;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    color: #183046;
+    font-size: 48px;
+}
+
+a {
+    color: #183046;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 /* Header */
@@ -15,21 +28,60 @@ body {
     background-color: #FFFBFB;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.379);;
-}
-.header_content{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.379);
     display: flex;
-    justify-self: center;
+    flex-direction: row;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70%;
 }
+
+.header-content-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+}
+
+.header-content-links-inlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 30px;
+}
+
+.header-content-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 30px;
+    margin-top: 75px;
+    margin-right: 270px;
+}
+
+.logo-zerfreis-header {
+    width: 130px;
+    margin-left: 20px;
+}
+
+
 /* */
 
 /* home body */
-.home_zoekblok{
+.home-zoekblok{
     margin-top: 150px;
     width: 100%;
 }
-.achtergrond_zoekblok{
+.achtergrond-zoekblok{
     display: block;
     width: 100%;
     height: 800px;
