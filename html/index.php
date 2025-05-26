@@ -33,6 +33,40 @@
                 </form>
             </div>
         </div>
+        <div class="home-snelzoeken">
+            <div class="onder">
+                <div class="blok-buiteneuropa blok onder">
+                    <img src="images/plaatje-buiten-europa.png" alt="">
+                    <div class="lijntje"></div>
+                    <div class="blok-snelzoeken">
+                        hoi
+                    </div>
+                </div>
+                <div class="blok-binneneuropa blok onder">
+                    <img src="images/plaatje-binnen-europa.png" alt="">
+                    <div class="lijntje"></div>
+                    <div class="blok-snelzoeken">
+                        hoi
+                    </div>
+                </div>
+            </div>
+            <div class="onder">
+                <div class="blok-wintervakantie blok onder">
+                    <img src="images/plaatje-winter-vakantie.png" alt="">
+                    <div class="lijntje"></div>
+                    <div class="blok-snelzoeken">
+                        hoi
+                    </div>
+                </div>
+                <div class="blok-zomervakantie blok onder">
+                    <img src="images/plaatje-zomer-vakantie.png" alt="">
+                    <div class="lijntje"></div>
+                    <div class="blok-snelzoeken">
+                        hoi
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
