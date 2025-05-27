@@ -39,14 +39,16 @@
                     <img src="images/plaatje-buiten-europa.png" alt="">
                     <div class="lijntje"></div>
                     <div class="blok-snelzoeken">
-                        hoi
+                        <h3>Buiten Europa</h3>
+                        <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
                     </div>
                 </div>
                 <div class="blok-binneneuropa blok onder">
                     <img src="images/plaatje-binnen-europa.png" alt="">
                     <div class="lijntje"></div>
                     <div class="blok-snelzoeken">
-                        hoi
+                        <h3>Binnen europa</h3>
+                        <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
                     </div>
                 </div>
             </div>
@@ -55,14 +57,16 @@
                     <img src="images/plaatje-winter-vakantie.png" alt="">
                     <div class="lijntje"></div>
                     <div class="blok-snelzoeken">
-                        hoi
+                        <h3>Winter Vakantie</h3>
+                        <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
                     </div>
                 </div>
                 <div class="blok-zomervakantie blok onder">
                     <img src="images/plaatje-zomer-vakantie.png" alt="">
                     <div class="lijntje"></div>
                     <div class="blok-snelzoeken">
-                        hoi
+                        <h3>Zomer Vakantie</h3>
+                        <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
                     </div>
                 </div>
             </div>

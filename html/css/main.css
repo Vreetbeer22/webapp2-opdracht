@@ -137,6 +137,13 @@ h2{
 .blok-snelzoeken{
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plaatje-pijltje-snelzoeken{
+    height: 10px;
+    width: 10px;
 }
 
 /* */
