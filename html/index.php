@@ -36,38 +36,38 @@
         <div class="home-snelzoeken">
             <div class="onder">
                 <div class="blok-buiteneuropa blok onder">
-                    <img src="images/plaatje-buiten-europa.png" alt="">
+                    <img src="images/plaatje-buiten-europa.png" class="plaatjes-snelzoeken" alt="">
                     <div class="lijntje"></div>
-                    <div class="blok-snelzoeken">
+                    <button class="blok-snelzoeken">
                         <h3>Buiten Europa</h3>
                         <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
-                    </div>
+                    </button>
                 </div>
                 <div class="blok-binneneuropa blok onder">
-                    <img src="images/plaatje-binnen-europa.png" alt="">
+                    <img src="images/plaatje-binnen-europa.png" class="plaatjes-snelzoeken" alt="">
                     <div class="lijntje"></div>
-                    <div class="blok-snelzoeken">
+                    <button class="blok-snelzoeken">
                         <h3>Binnen europa</h3>
                         <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
-                    </div>
+                    </button>
                 </div>
             </div>
             <div class="onder">
                 <div class="blok-wintervakantie blok onder">
-                    <img src="images/plaatje-winter-vakantie.png" alt="">
+                    <img src="images/plaatje-winter-vakantie.png" class="plaatjes-snelzoeken" alt="">
                     <div class="lijntje"></div>
-                    <div class="blok-snelzoeken">
+                    <button class="blok-snelzoeken">
                         <h3>Winter Vakantie</h3>
                         <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
-                    </div>
+                    </button>
                 </div>
                 <div class="blok-zomervakantie blok onder">
-                    <img src="images/plaatje-zomer-vakantie.png" alt="">
+                    <img src="images/plaatje-zomer-vakantie.png" class="plaatjes-snelzoeken" alt="">
                     <div class="lijntje"></div>
-                    <div class="blok-snelzoeken">
+                    <button class="blok-snelzoeken">
                         <h3>Zomer Vakantie</h3>
                         <img src="images/pijltje-snelzoeken.png" class="plaatje-pijltje-snelzoeken" alt="pijltje">
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

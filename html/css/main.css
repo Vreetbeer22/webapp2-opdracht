@@ -103,6 +103,7 @@ h2{
     border-style: solid;
     border-radius: 15px;
     overflow: hidden;
+    margin-top: 30px;
 }
 .blok-buiteneuropa{
     width: 32vw;
@@ -120,10 +121,7 @@ h2{
     width: 32vw;
     height: 450px;
 }
-.blok-buiteneuropa img,
-.blok-binneneuropa img,
-.blok-wintervakantie img,
-.blok-zomervakantie img {
+.plaatjes-snelzoeken {
     display: block;
     width: 100%;
     height: 100%;
@@ -140,10 +138,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .plaatje-pijltje-snelzoeken{
-    height: 10px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
 }
 
 /* */
