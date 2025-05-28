@@ -107,19 +107,19 @@ h2{
 }
 .blok-buiteneuropa{
     width: 32vw;
-    height: 400px;
+    height: 500px;
 }
 .blok-binneneuropa{
     width: 32vw;
-    height: 300px;
+    height: 400px;
 }
 .blok-wintervakantie{
     width: 32vw;
-    height: 250px;
+    height: 350px;
 }
 .blok-zomervakantie{
     width: 32vw;
-    height: 450px;
+    height: 550px;
 }
 .plaatjes-snelzoeken {
     display: block;
