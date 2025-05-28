@@ -1,3 +1,8 @@
+<?php
+session_start();
+include_once "connect.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,11 +18,9 @@
 
 <body>
     <nav>
-        <div class="header">
-            <div class="header-content">
-                
-            </div>
-        </div>     
+        <?php
+        include "header.php";
+        ?>        
     </nav>
     <main>
         <div class="home-zoekblok">
@@ -70,6 +73,11 @@
                     </button>
                 </div>
             </div>
+        </div>
+        <div class="blok-waarom">
+            <div class="lijntje-waarom"></div>
+            <h4>Waarom boeken bij Zwerfreis?</h4>
+            <div class="lijntje-waarom"></div>
         </div>
     </main>
     <footer>

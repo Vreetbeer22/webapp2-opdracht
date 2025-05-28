@@ -1,13 +1,65 @@
 /* algemeen */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-h2{
-    font-size: 70px;
+ 
+body {
+    background-color: #FFFBFB;
     font-family: "Inter", sans-serif;
+}
+ 
+h1 {
+    color: #183046;
+    font-size: 48px;
+}
+ 
+h2 {
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 60px;
+}
+ 
+h3 {
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+ 
+a {
+    color: #183046;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+ 
+p {
+    color: #183046;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+ 
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+}
+ 
+ul img {
+    width: 75px;
+}
+ 
+span {
+    display: flex;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 /* */
 
@@ -26,16 +78,84 @@ h2{
 /* */
 
 /* Header */
-.header{
+ 
+.header {
     height: 200px;
     width: 100%;
-    background-color: aquamarine;
-}
-.header-content{
+    background-color: #FFFBFB;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.379);
     display: flex;
-    justify-self: center;
+    flex-direction: row;
+}
+ 
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70%;
 }
+ 
+.header-content-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 30px;
+}
+ 
+.header-content-links-inlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 30px;
+}
+ 
+.header-content-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 30px;
+    margin-top: 75px;
+    margin-right: 270px;
+}
+ 
+.logo-zerfreis-header {
+    width: 130px;
+    margin-left: 20px;
+}
+.modal {
+    display: none; /* Begin als verborgen */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+ 
 /* */
 
 /* home body */
@@ -96,6 +216,8 @@ h2{
     justify-content: space-between;
     margin: auto;
     gap: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .blok{
     border: #183046;
@@ -143,6 +265,25 @@ h2{
 .plaatje-pijltje-snelzoeken{
     height: 40px;
     width: 40px;
+}
+
+/* */
+
+/* blok waarom kiezen voor zwerfreis*/
+
+.blok-waarom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+}
+.lijntje-waarom{
+    height: 3px;
+    width: 30%;
+    background-color: #183046;
 }
 
 /* */
