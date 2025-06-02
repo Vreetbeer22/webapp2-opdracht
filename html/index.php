@@ -30,8 +30,8 @@ include_once "connect.php";
             </div>
             <div class="zoekbalk-zoekblok">
                 <form method="get">     <!-- zoekbalk -->
-                    <input type="text" name="zoek" class="" placeholder="Bestemming" value="">
-                    <input type="text" name="zoek" class="" placeholder="vertrekdatum" value="">
+                    <input type="text" name="zoek" class="index-reis-zoeken" placeholder="Bestemming" value="">
+                    <input type="text" name="zoek" class="index-reis-zoeken" placeholder="vertrekdatum" value="">
                     <button type="submit" class="zoekknop-zoekblok">Zoeken</button>
                 </form>
             </div>
