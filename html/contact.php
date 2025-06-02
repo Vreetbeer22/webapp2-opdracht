@@ -28,15 +28,15 @@
                         <label for="bericht">Bericht:</label>
                         <textarea id="bericht" name="bericht" rows="4"></textarea>
 
-                        
+
                     </form>
                     <button type="submit">Verstuur</button>
                 </div>
                 <div class="contact-info">
                     <h3>Contact gegevens</h3>
-                    <img src="">Adres<br>Postcode</img>
-                    <p>Telefoonnummer</p>
-                    <p>Mailadres</p>
+                    <p>📍 Adres<br>Postcode</p>
+                    <p>📞 Telefoonnummer</p>
+                    <p>✉️ Mailadres</p>
 
                     <div class="hours">
                         <h3>Openingstijden</h3>
