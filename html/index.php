@@ -80,19 +80,19 @@ include_once "connect.php";
         </div>
         <div class="waarom-items">
             <div class="waarom-item">
-                <img src="persoonlijk-icon.png" alt="Persoonlijk contact">
+                <img src="images/26622573-toestemming-icoon-symbool-ontwerp-illustratie-vector.jpg" alt="Persoonlijk contact">
                 <p><strong>Persoonlijk en snel contact</strong></p>
             </div>
             <div class="waarom-item">
-                <img src="laagsteprijs-icon.png" alt="Laagsteprijsgarantie">
+                <img src="images/16895743-neiging-naar-beneden-pijl-icoon-lijn-geisoleerd.jpg" alt="Laagsteprijsgarantie">
                 <p><strong>Laagsteprijsgarantie</strong></p>
             </div>
             <div class="waarom-item">
-                <img src="omruilgarantie-icon.png" alt="Gratis omruilgarantie">
+                <img src="images/360_F_1168856096_BcVZ6ZBK9VHy96D59akh0EEZl8B92f8O.jpg" alt="Gratis omruilgarantie">
                 <p><strong>Gratis omruilgarantie</strong></p>
             </div>
             <div class="waarom-item">
-                <img src="veiligheid-icon.png" alt="Veiligheid voor uw gegevens">
+                <img src="images/26398324-schild-icoon-ontwerp-sjabloon-gratis-vector.jpg" alt="Veiligheid voor uw gegevens">
                 <p><strong>Veiligheid voor uw gegevens</strong></p>
             </div>
         </div>

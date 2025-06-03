@@ -6,7 +6,7 @@
 }
  
 body {
-    background-color: #FFFBFB;
+    background-color: #FFFFFF;
     font-family: "Inter", sans-serif;
 }
  
@@ -339,19 +339,22 @@ button {
     width: 100%;
     gap: 20px;
 }
+
 .lijntje-waarom{
     height: 3px;
     width: 30%;
     background-color: #183046;
 }
 
-
-
 .waarom-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
+}
+
+.waarom-items p {
+    font-size: 20px;
 }
 
 .waarom-item {
@@ -361,8 +364,8 @@ button {
 }
 
 .waarom-item img {
-    width: 48px;
-    height: 48px;
+    width: 148px;
+    height: 148px;
     margin-bottom: 10px;
 }
 
