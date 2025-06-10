@@ -13,7 +13,7 @@ try {
     die("Databaseverbinding mislukt: " . $e->getMessage() . "<br>Controleer of de database bestaat en of de gebruiker de juiste rechten heeft.");
 }
 
-$stmt = $pdo->query("SHOW TABLES LIKE 'users'");
+$stmt = $pdo->query("SHOW TABLES LIKE 'gebruiker'");
 $tableExists = $stmt->rowCount() > 0;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -21,21 +21,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $passInput = trim($_POST['password'] ?? '');
 
     if (!empty($userInput) && !empty($passInput)) {
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username AND password = :password");
-        $stmt->bindValue(':username', $userInput);
-        $stmt->bindValue(':password', $passInput);
-        $stmt->execute();
-        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    // Probeer eerst als admin
+    $stmt = $pdo->prepare("SELECT * FROM admins WHERE naam = :username AND wachtwoord = :password");
+    $stmt->bindValue(':username', $userInput);
+    $stmt->bindValue(':password', $passInput);
+    $stmt->execute();
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        if ($user) {
-            $_SESSION['ingelogt'] = true;
-            $_SESSION['user'] = $userInput;
-            header("Location: admin.php");
-            exit;
-        }
-
-        header("Location: index.php?error=1");
+    if ($user) {
+        $_SESSION['ingelogt'] = true;
+        $_SESSION['user'] = $userInput;
+        $_SESSION['role'] = 'admin';
+        header("Location: admin.php");
         exit;
     }
+
+    // Probeer dan als gewone gebruiker
+    $stmt = $pdo->prepare("SELECT * FROM gebruiker WHERE naam = :username AND wachtwoord = :password");
+    $stmt->bindValue(':username', $userInput);
+    $stmt->bindValue(':password', $passInput);
+    $stmt->execute();
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if ($user) {
+        $_SESSION['ingelogt'] = true;
+        $_SESSION['user'] = $userInput;
+        $_SESSION['role'] = 'gebruiker';
+        header("Location: index.php");  // <-- Verander dit naar jouw gebruikerspagina
+        exit;
+    }
+
+    // Geen gebruiker gevonden
+    header("Location: index.php?error=1");
+    exit;
+}
 }
 ?>
