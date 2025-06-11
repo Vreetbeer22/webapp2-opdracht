@@ -56,3 +56,4 @@ $pdo = $db->get_connection();
         </nav>
     </div>
     <script src="js/inlogmenu.js"></script>
+</body>
