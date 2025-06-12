@@ -79,31 +79,38 @@ if (isset($_POST["verwijderen"])) {
     include "header.php";
     ?>
     <main>
-        <form method="post">
-            Locatie: <input type="text" name="locatie" class="" required><br>
-            Omschrijving: <textarea name="omschrijving" class=""></textarea><br>
-            Prijs <input type="price" name="prijs" class="" required><br>
-            Datum <input type="date" name="datum" class="" required><br>
-            Personen <input type="number" name="personen" class="" required><br>
-            <button type="submit" name="toevoegen" class="">Toevoegen</button>
-        </form>
-
-        <form method="post">
-            Id: <input type="text" name="id" class="" required><br>
-            Locatie: <input type="text" name="locatie" class="" required><br>
-            Omschrijving: <textarea name="omschrijving" class=""></textarea><br>
-            Prijs <input type="price" name="prijs" class="" required><br>
-            Datum <input type="date" name="datum" class="" required><br>
-            Personen <input type="number" name="personen" class="" required><br>
-            <button type="submit" name="toevoegen" class="">Toevoegen</button>
-        </form>
-
-        <form method="post">
-            Id: <input type="number" name="id" class="invulbalk"><br>
-            Locatie: <input type="text" name="naam" class="invulbalk"><br>
-            <button type="submit" name="verwijderen" class="invulbalk">verwijderen</button>
-        </form>
-
+        <div class="admin-body">
+            <div class="naast ruimte-tussen">
+                <div class="form-blok">
+                    <form method="post">
+                        Locatie: <input type="text" name="locatie" class="invulbalk" required><br>
+                        Omschrijving: <textarea name="omschrijving" class="invulbalk"></textarea><br>
+                        Prijs <input type="price" name="prijs" class="invulbalk" required><br>
+                        Datum <input type="date" name="datum" class="invulbalk" required><br>
+                        Personen <input type="number" name="personen" class="invulbalk" required><br>
+                        <button type="submit" name="toevoegen" class="invulbalk">Toevoegen</button>
+                    </form>
+                </div>
+                <div class="form-blok">
+                    <form method="post">
+                        Id: <input type="text" name="id" class="invulbalk" required><br>
+                        Locatie: <input type="text" name="locatie" class="invulbalk" required><br>
+                        Omschrijving: <textarea name="omschrijving" class="invulbalk"></textarea><br>
+                        Prijs <input type="price" name="prijs" class="invulbalk" required><br>
+                        Datum <input type="date" name="datum" class="invulbalk" required><br>
+                        Personen <input type="number" name="personen" class="invulbalk" required><br>
+                        <button type="submit" name="aanpassen" class="invulbalk">Aanpassen</button>
+                    </form>
+                </div>
+                <div class="form-blok">
+                    <form method="post">
+                        Id: <input type="text" name="id" class="invulbalk"><br>
+                        Locatie: <input type="text" name="naam" class="invulbalk"><br>
+                        <button type="submit" name="verwijderen" class="invulbalk">verwijderen</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <?php
 
         require_once 'connect.php';
@@ -128,5 +135,5 @@ if (isset($_POST["verwijderen"])) {
 
     </footer>
 </body>
-
+    <script src="js/melding.js"></script>
 </html>
