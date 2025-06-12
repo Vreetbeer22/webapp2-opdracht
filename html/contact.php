@@ -45,9 +45,27 @@
                         <p>Zondag: Gesloten</p>
                     </div>
 
-                    <iframe class="map-button" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.961910268009!2d5.866229177106125!3d51.82704468730163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7094758831e59%3A0x606c614ce9de3505!2sROC%20Nijmegen%20-%20Heyendaalseweg!5e1!3m2!1snl!2snl!4v1748416752710!5m2!1snl!2snl" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="map-button"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.961910268009!2d5.866229177106125!3d51.82704468730163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7094758831e59%3A0x606c614ce9de3505!2sROC%20Nijmegen%20-%20Heyendaalseweg!5e1!3m2!1snl!2snl!4v1748416752710!5m2!1snl!2snl"
+                        width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+        </div>
+        <div class="review-container">
+            <h1 class="review-title">Laat een review achter</h1>
+            <form action="contact.php" method="post" class="review-form">
+                <div class="review-stars">
+                    <?php for ($i = 5; $i >= 1; $i--): ?>
+                        <input type="radio" name="rating" value="<?= $i ?>" id="star<?= $i ?>" required>
+                        <label for="star<?= $i ?>">★</label>
+                    <?php endfor; ?>
+                </div>
+                <textarea name="review" placeholder="Schrijf je review hier..." required
+                    class="review-textarea"></textarea>
+                <button type="submit" class="review-submit">Verstuur Review</button>
+                <input type="hidden" name="redirect" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            </form>
         </div>
     </main>
     <?php include 'footer.php'; ?>

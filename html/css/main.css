@@ -651,14 +651,14 @@ footer {
     color: #fff;
     padding: 50px 20px;
 }
-
+ 
 .contact h2 {
     color: #183046;
     width: 600px;
     margin: 70px;
     margin-left: 170px;
 }
-
+ 
 .contact .container {
     width: 1500px;
     height: 1000px;
@@ -670,19 +670,19 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     color: black;
 }
-
+ 
 .contact-form {
     flex: 2;
     margin-right: 20px;
 }
-
+ 
 .contact-form label {
     display: block;
     margin: 35px;
     font-weight: bold;
     font-size: 41px;
 }
-
+ 
 .contact-form input {
     width: 70%;
     height: 60px;
@@ -691,7 +691,7 @@ footer {
     border-radius: 5px;
     border: 1.5px solid #5f5d5d;
 }
-
+ 
 .contact-form textarea {
     width: 70%;
     height: 180px;
@@ -700,7 +700,7 @@ footer {
     border-radius: 5px;
     border: 1.5px solid #5f5d5d;
 }
-
+ 
 .contact-form button {
     margin: 35px;
     width: 70%;
@@ -712,24 +712,102 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
-
+ 
 .contact-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
 }
-
+ 
 .hours {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 40px;
 }
-
+ 
 .map-button {
     border-radius: 10px;
     margin-top: 45px;
+}
+ 
+/* */
+ 
+.review-container {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+ 
+.review-title {
+    color: #444;
+}
+ 
+.review-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ 
+.review-textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+ 
+.review-submit {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+.review-submit:hover {
+    background: #0056b3;
+}
+ 
+.review-stars {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+ 
+.review-stars input {
+    display: none;
+}
+ 
+.review-stars label {
+    color: #ccc;
+    cursor: pointer;
+}
+ 
+.review-stars input:checked ~ label,
+.review-stars label:hover,
+.review-stars label:hover ~ label {
+    color: gold;
+}
+ 
+.review-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 600px;
 }
 
 /* */
