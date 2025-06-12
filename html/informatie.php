@@ -9,15 +9,11 @@
 </head>
 
 <body>
-    <nav>
-
-    </nav>
+    <?php include 'header.php'; ?>
     <main>
 
     </main>
-    <footer>
-
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

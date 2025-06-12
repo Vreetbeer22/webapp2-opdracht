@@ -81,8 +81,64 @@ button {
 
 /* */
 
+body {
+    background-color: #FFFBFB;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    color: #183046;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: #183046;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p {
+    color: #183046;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+    font-size: 42px;
+    font-family: "Inter", sans-serif;
+}
+
+ul img {
+    width: 75px;
+}
+
+span {
+    display: flex;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 /* Header */
- 
 .header {
     height: 200px;
     width: 100%;
@@ -93,14 +149,13 @@ button {
     display: flex;
     flex-direction: row;
 }
- 
 .header-content {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70%;
 }
- 
+
 .header-content-text {
     display: flex;
     justify-content: center;
@@ -109,7 +164,7 @@ button {
     width: 70%;
     gap: 30px;
 }
- 
+
 .header-content-links-inlog {
     display: flex;
     justify-content: center;
@@ -118,7 +173,7 @@ button {
     width: 70%;
     gap: 30px;
 }
- 
+
 .header-content-links {
     display: flex;
     justify-content: center;
@@ -129,11 +184,12 @@ button {
     margin-top: 75px;
     margin-right: 270px;
 }
- 
+
 .logo-zerfreis-header {
     width: 130px;
     margin-left: 20px;
 }
+
 .modal {
     display: none; 
     position: fixed;
@@ -159,12 +215,13 @@ button {
     font-size: 24px;
     cursor: pointer;
 }
- 
+
 /* */
 
 /* home body */
 
 /* zoekblok */
+
 .home-zoekblok {
     margin-top: 150px;
     width: 100%;
@@ -180,6 +237,7 @@ button {
 }
 
 .achtergrond-zoekblok {
+
     position: absolute;
     display: block;
     width: 100%;
@@ -489,4 +547,189 @@ textarea {
     transform: translateX(-50%);
     z-index: 1000;
 }
+
+/* */
+
+/* Over ons pagina */
+
+.over-ons {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.over-ons-tekst {
+    color: #000b0b;
+    margin: 150px;
+    gap: 50px;
+}
+
+.over-ons-img {
+    height: 800px;
+    width: auto;
+    margin: 150px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.over-ons-bieden {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 70px;
+}
+
+.over-ons-bieden img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.over-ons-bieden h2 {
+    font-size: 45px;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.over-ons-bieden p {
+    margin: 0;
+    font-size: 37px;
+    color: #333;
+}
+
+.over-ons-kieze {
+    color: #000b0b;
+    margin: 150px;
+}
+
+/* */
+
+/* Footer */
+
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: #FFFBFB;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.379);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.footer-column p,
+.footer-column a {
+    margin: 10px;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-column strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+/* */
+
+/* contact */
+
+.contact {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    color: #183046;
+    width: 600px;
+    margin: 70px;
+    margin-left: 170px;
+}
+
+.contact .container {
+    width: 1500px;
+    height: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: black;
+}
+
+.contact-form {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 35px;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.contact-form input {
+    width: 70%;
+    height: 60px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #5f5d5d;
+}
+
+.contact-form textarea {
+    width: 70%;
+    height: 180px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #5f5d5d;
+}
+
+.contact-form button {
+    margin: 35px;
+    width: 70%;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hours {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.map-button {
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
 /* */
