@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php 
+    include 'header.php'; 
+    ?>
     <main>
         <div class="over-ons">
             <div class="over-ons-tekst">

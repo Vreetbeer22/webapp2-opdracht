@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="nl">
 <?php
 
 $is_ingelogd = $_SESSION["ingelogt"] ?? false;  //wordt gebruikt om te kijken of gebruiker wel/niet is ingelogt
@@ -16,10 +14,6 @@ $pdo = $db->get_connection();
     <title>Zwerfreis</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-
-<nav>
-
 
 <body>
     <div class="header">
@@ -27,9 +21,6 @@ $pdo = $db->get_connection();
             <img class="logo-zerfreis-header" src="images/logo-zwerfreis.png" alt="Zwerfreis logo">
             <h1>Zwerfreis</h1>
         </div>
-        <div class="header-content-text">
-            <div class="header-content-links-inlog">
-                <a href="login.php">Inloggen</a>
         <nav class="header-content-text">
             <div class="header-content-links-inlog">
                 <?php if ($is_ingelogd) { ?> <!-- Als er is ingelogd -->
@@ -62,10 +53,6 @@ $pdo = $db->get_connection();
                 <a href="overons.php">Over ons</a>
                 <a href="contact.php">Contact</a>
             </div>
-        </div>
-    </div>
-</nav>
-
         </nav>
     </div>
     <script src="js/inlogmenu.js"></script>

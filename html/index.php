@@ -13,21 +13,14 @@ include_once "connect.php";
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <?php include 'header.php'; ?>
-    <main>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Home pagina</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <?php
-    include "header.php";
+    include 'header.php';
     ?>
     <main>
         <div class="home-zoekblok">
@@ -89,11 +82,13 @@ include_once "connect.php";
         </div>
         <div class="waarom-items">
             <div class="waarom-item">
-                <img src="images/26622573-toestemming-icoon-symbool-ontwerp-illustratie-vector.jpg" alt="Persoonlijk contact">
+                <img src="images/26622573-toestemming-icoon-symbool-ontwerp-illustratie-vector.jpg"
+                    alt="Persoonlijk contact">
                 <p><strong>Persoonlijk en snel contact</strong></p>
             </div>
             <div class="waarom-item">
-                <img src="images/16895743-neiging-naar-beneden-pijl-icoon-lijn-geisoleerd.jpg" alt="Laagsteprijsgarantie">
+                <img src="images/16895743-neiging-naar-beneden-pijl-icoon-lijn-geisoleerd.jpg"
+                    alt="Laagsteprijsgarantie">
                 <p><strong>Laagsteprijsgarantie</strong></p>
             </div>
             <div class="waarom-item">
@@ -101,16 +96,15 @@ include_once "connect.php";
                 <p><strong>Gratis omruilgarantie</strong></p>
             </div>
             <div class="waarom-item">
-                <img src="images/26398324-schild-icoon-ontwerp-sjabloon-gratis-vector.jpg" alt="Veiligheid voor uw gegevens">
+                <img src="images/26398324-schild-icoon-ontwerp-sjabloon-gratis-vector.jpg"
+                    alt="Veiligheid voor uw gegevens">
                 <p><strong>Veiligheid voor uw gegevens</strong></p>
             </div>
         </div>
-
     </main>
-    <footer>
-
-    </main>
-    <?php include 'footer.php'; ?>
+    <?php
+    include 'footer.php';
+    ?>
 </body>
 
 </html>
